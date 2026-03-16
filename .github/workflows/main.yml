@@ -6,7 +6,7 @@ on:
       DEVICE_IMG:
         description: '(.img) file link'
         required: true
-        default: 'https://dumps.tadiphone.dev/dumps/google/mustang/-/blob/mustang-user-16-BD3A.251005.003.W3-14147046-release-keys/vendor_boot.img?ref_type=heads'
+        default: 'https://dumps.tadiphone.dev/dumps/google/mustang/-/raw/mustang-user-16-BD3A.251005.003.W3-14147046-release-keys/vendor_boot.img?ref_type=heads&inline=false'
       DEVICE_BRANCH:
         description: 'blazer'
         required: true
