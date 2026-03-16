@@ -71,7 +71,7 @@ jobs:
         
     - name: Generating Device tree
       run: |
-        python3 -m twrpdtgen ./${{ env.RECOVERY_TYPE }}.img 
+        python3 -m twrpdtgen ./${{ env.vendor_boot }}.img 
         
     - name: Set Build Date 
       run: |
